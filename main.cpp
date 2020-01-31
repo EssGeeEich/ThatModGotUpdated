@@ -128,9 +128,15 @@ void QFactorioWebApiTester::loadNextMod()
 			}
 		}
 		if(m_nonMatchMods.isEmpty())
+		{
 			qApp->exit(0);
+			return;
+		}
 		//if(m_matchMods.isEmpty())
+		//{
 		//	qApp->exit(1);
+		//	return;
+		//}
 		qApp->exit(1);
 		return;
 	}
