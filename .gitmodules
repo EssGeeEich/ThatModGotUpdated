@@ -1,0 +1,3 @@
+[submodule "FactorioWebApi"]
+	path = FactorioWebApi
+	url = https://github.com/EssGeeEich/FactorioWebApi.git
