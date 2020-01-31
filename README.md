@@ -1,6 +1,12 @@
 # ThatModGotUpdated
 A program dedicated to Factorio players who want to know whether their mods have been updated lately.
 
+## Requirements
+- Qt 5+ with SSL support
+- C++17 compiler
+
+ᶦ ᵘˢᵉ ᵃʳᶜʰ ᵇᵗʷ
+
 ## Installation
 ```bash
 git clone --recursive https://github.com/EssGeeEich/ThatModGotUpdated.git
